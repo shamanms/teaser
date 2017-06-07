@@ -1,0 +1,93 @@
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.teaser {
+    background: #fafafa;
+    padding: 1.5rem;
+}
+
+.teaser-inner {
+    margin: auto;
+    max-width: 77.4rem;
+    padding: 2.3rem 2.7rem;
+    background: #fff;
+    border: solid 0.1rem #e8e8e8;
+    border-radius: 0.3rem;
+}
+
+.teaser-autor-date,
+teaser-author-date-content,
+.teaser-avatar {
+    overflow: hidden;
+}
+
+.teaser-avatar {
+    float: left;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1.2rem;
+}
+
+.teaser-avatar img {
+    display: block
+}
+
+.teaser-icons {
+    margin: 3rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    fill: #03b876;
+}
+
+.teaser-icons li {
+    display: inline-block;
+}
+
+.teaser-icons li:first-child {
+    float: left;
+}
+.teaser-icons li:nth-child(2) {
+    margin-right: 2rem;
+}
+.teaser-header p {
+    font-size: 1.7rem;
+    color: #8f979b;
+    margin: 0 0 1.5rem;
+}
+.teaser-author-channel,
+.teaser-author-channel a{
+    font-size: 1.7rem;
+    color: #4fab6b;
+    text-decoration: none;
+}
+.teaser-date {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+.teaser-main-img {
+    margin-top: 1.5rem;
+}
+.teaser-main h1 {
+    font-size: 3.2rem;
+    color: 373737;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+.teaser-main p {
+    font-size: 2.4rem;
+    color: #8f8f8f;
+    margin-top: 0;
+}
+.teaser-read-more {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
